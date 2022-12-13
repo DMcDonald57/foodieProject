@@ -5,8 +5,21 @@
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
+    <welcomePage/>
   </div>
 </template>
+
+<script>
+import welcomePage from "@/views/welcomePage";
+  
+export default{
+  name : "App",
+  components :  {
+    welcomePage
+  }
+
+  }
+</script>
 
 <style>
 #app {
@@ -17,16 +30,8 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+html{
+  background-color: blanchedalmond;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
