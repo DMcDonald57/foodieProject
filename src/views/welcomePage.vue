@@ -7,11 +7,12 @@
 </template>
 
 <script>
-import pageTopper from '@/components/pageTopper.vue';
+import pageTopper from '@/components/pageTopper';
     export default {
         name : "welcomePage",
-        components: pageTopper
-        
+        components: {
+            pageTopper
+        }
     }
 </script>
 
