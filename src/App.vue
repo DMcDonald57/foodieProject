@@ -1,22 +1,22 @@
 <template>
   <div id="app">
     <router-view/>
-    <pageTopper/>
-    <welcomePage/>
+    <!-- <pageTopper/>
+    <welcomePage/> -->
     
   </div>
 </template>
 
 <script>
-import pageTopper from "@/components/pageTopper.vue";
-import welcomePage from "@/views/welcomePage";
+// import pageTopper from "@/components/pageTopper.vue";
+// import welcomePage from "@/views/welcomePage";
   
 export default{
   name : "App",
-  components :  {
-    pageTopper,
-    welcomePage,
-    }
+  // components :  {
+  //   pageTopper,
+  //   welcomePage,
+  //   }
 
   }
 </script>
