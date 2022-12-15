@@ -8,6 +8,7 @@
 
 <script>
 import pageTopper from '@/components/pageTopper';
+
     export default {
         name: "restReg",
         components: {

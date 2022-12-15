@@ -7,10 +7,10 @@
 
 <script>
   
-export default{
-  name : "App",
-
-  }
+    export default{
+      name : "App",
+    }
+    
 </script>
 
 <style>
@@ -23,7 +23,7 @@ export default{
 }
 
 html{
-  background-color: blanchedalmond;
+  background-color: #ffebcd;
 }
 
 </style>

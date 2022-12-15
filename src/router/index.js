@@ -8,16 +8,17 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-  path: "/",
-  component: welcomePage
+    path: "/",
+    component: welcomePage
   },
-  {path: "@/components/pageTopper",
+  {
+    path: "@/components/pageTopper",
     component: pageTopper
-},
-{
-  path: "/restReg",
-  component: restReg
-}
+  },
+  {
+    path: "/restReg",
+    component: restReg
+  }
 ]
 
 const router = new VueRouter({
