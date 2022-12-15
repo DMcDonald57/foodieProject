@@ -1,10 +1,9 @@
 <template>
     <div>
         <pageTopper/>
-        <img src="https://img.freepik.com/free-photo/chopping-board-surrounded-with-vegetables-eggs-rice-grains-desk_23-2148062361.jpg?w=2000" alt="background Img">
-        <p>test</p>
-        <router-link to="/restReg">click here</router-link>
-        
+        <h1>about us</h1>
+        <router-link to="/restReg">Register Your Restaurant here</router-link>
+
     </div>
 </template>
 
@@ -20,10 +19,5 @@ import pageTopper from '@/components/pageTopper';
 </script>
 
 <style scoped>
-img {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    padding-top: 10px;
-}
+
 </style>
